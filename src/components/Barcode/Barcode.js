@@ -29,7 +29,7 @@ export const Barcode = () => {
     return (
         <div>
             <BeverageSelector setBarcode={setBarcode} />
-            <h1>Enter Barcode Here</h1>
+            {/* <h1>Enter Barcode Here</h1>
             <input
                 type='number'
                 placeholder='Barcode ...'
@@ -41,7 +41,7 @@ export const Barcode = () => {
             <button onClick={() => getAPIdata(barcode)}>Submit</button>
 
             <h1>Product Name: {result && result.products[0].product_name}</h1>
-            <h1>Barcode: {result && result.products[0].barcode_number}</h1>
+            <h1>Barcode: {result && result.products[0].barcode_number}</h1> */}
         </div>
     );
 };
