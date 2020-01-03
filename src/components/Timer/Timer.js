@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import Styles from './Styles';
+import {styledApp, styledTime, } from './Styles';
 
 const Timer = () => {
   const [seconds, setSeconds] = useState(0);
@@ -40,9 +40,7 @@ const Timer = () => {
 export default Timer;
 
 
-<div className = "time">
-        {seconds}s
-      </div>
+
       
       <div className = "row">
         <button className = {`button button-primary button-primary-${isActive ? 'active' : 'inactive'}`}>
