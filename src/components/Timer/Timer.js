@@ -32,16 +32,6 @@ const Timer = () => {
         {seconds}s
       </styledTime>
       
-      
-    </styledApp>
-  );
-};
-
-export default Timer;
-
-
-
-      
       <div className = "row">
         <button className = {`button button-primary button-primary-${isActive ? 'active' : 'inactive'}`}>
           {isActive ? 'Pause' : 'Start'}
@@ -51,3 +41,10 @@ export default Timer;
           Reset
         </button>
       </div>
+      
+      
+    </styledApp>
+  );
+};
+
+export default Timer;
