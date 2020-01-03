@@ -17,13 +17,13 @@ export const BeverageSelector = ({ setBarcode }) => {
                 className='image pepsi'
             />
             <img
-                src={'https://i.imgur.com/CAdkz4g.png?1'}
+                src={'https://i.imgur.com/sNmQfMI.png'}
                 alt='Bud Light Barcode'
                 onClick={() => setBarcode('018200530470')}
                 className='image budlight'
             />
             <img
-                src={'https://i.imgur.com/hsyJXP4.png?1'}
+                src={'https://i.imgur.com/XEdseih.png'}
                 alt='Budweiser Barcode'
                 onClick={() => setBarcode('018200007712')}
                 className='image budlight'
