@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import Styles from './Styles';
 
 const Timer = () => {
   const [seconds, setSeconds] = useState(0);
@@ -26,8 +27,20 @@ const Timer = () => {
   }, [isActive, seconds]);
   
   return (
-    <div className = "app">
-      <div className = "time">
+    <styledApp>
+      <styledTime>
+        {seconds}s
+      </styledTime>
+      
+      
+    </styledApp>
+  );
+};
+
+export default Timer;
+
+
+<div className = "time">
         {seconds}s
       </div>
       
@@ -40,8 +53,3 @@ const Timer = () => {
           Reset
         </button>
       </div>
-    </div>
-  );
-};
-
-export default Timer;
