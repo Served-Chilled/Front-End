@@ -5,6 +5,8 @@ import { Route } from 'react-router-dom';
 import { Scan } from '../Scan/Scan';
 import { Home } from '../Home/Home';
 import { Barcode } from '../Barcode/Barcode';
+import { Instructions } from '../Instructions/Instructions';
+import { ClockTimer } from '../Timer/ClockTimer';
 
 const Routes = props => {
     return (
@@ -12,6 +14,8 @@ const Routes = props => {
             <Route exact path='/' component={Home} />
             <Route path='/scan' component={Scan} />
             <Route path='/barcode' component={Barcode} />
+            <Route path='/instructions' component={Instructions} />
+            <Route path='/timer' component={ClockTimer} />
         </>
     );
 };

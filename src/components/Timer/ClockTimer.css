@@ -1,0 +1,24 @@
+.minutes {
+    color: white;
+    font-size: 4rem;
+}
+
+.clock {
+    border: 6px solid white;
+    border-radius: 12px;
+    margin-top: 10rem;
+    width: 70%;
+    margin-left: 2rem;
+    position: absolute;
+    bottom: 50%;
+}
+
+.overlay {
+    position: relative;
+    text-align: center;
+}
+
+.img {
+    height: 100vh;
+    z-index: -1;
+}
