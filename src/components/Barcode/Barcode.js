@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './Barcode.css';
+import { BeverageSelector } from '../BeverageSelector/BeverageSelector';
 
 export const Barcode = () => {
     const [barcode, setBarcode] = useState('');
@@ -27,24 +28,7 @@ export const Barcode = () => {
     result && console.log(result, 'RESULT');
     return (
         <div>
-            <img
-                src={'https://i.imgur.com/UsB0vjw.jpg'}
-                alt='Coca Cola Barcode'
-                onClick={() => setBarcode('049000028904')}
-                className='image coke'
-            />
-            <img
-                src={'https://i.imgur.com/GHNyYr3.png'}
-                alt='Pepsi Barcode'
-                onClick={() => setBarcode('012000000133')}
-                className='image pepsi'
-            />
-            <img
-                src={'https://i.imgur.com/IfQ3gBw.jpg'}
-                alt='Bud Light Barcode'
-                onClick={() => setBarcode('018200530470')}
-                className='image budlight'
-            />
+            <BeverageSelector setBarcode={setBarcode} />
             <h1>Enter Barcode Here</h1>
             <input
                 type='number'
