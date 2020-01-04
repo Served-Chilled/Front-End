@@ -12,7 +12,7 @@ export const ClockTimer = () => {
                         <React.Fragment>
                             <div className='clock'>
                                 <div className='minutes'>
-                                    <Timer.Minutes className='minutes' /> :
+                                    <Timer.Minutes className='minutes' />:
                                     <Timer.Seconds />
                                 </div>
                             </div>

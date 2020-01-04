@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export const BeverageSelector = ({ setBarcode }) => {
     return (
         <div className='grid'>
-            <Link className='button' to='/timer'>
+            <Link className='button2' to='/timer'>
                 <img
                     src={'https://i.imgur.com/CMHG3ph.jpg?1'}
                     alt='Coca Cola Barcode'
