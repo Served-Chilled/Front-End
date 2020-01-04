@@ -19,7 +19,9 @@ export const Home = () => {
                 </div>
             </div>
             <img className='img' src='https://i.imgur.com/5ns9mnK.jpg' />
-            <Link to='/instructions'>Next</Link>
+            <Link className='instructions' to='/instructions'>
+                Next
+            </Link>
         </div>
     );
 };
